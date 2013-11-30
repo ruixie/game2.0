@@ -51,4 +51,9 @@ public class BaseUnit implements IUnit {
         System.out.println("draw unit:"+unitName);
         model.draw();
     }
+
+    @Override
+    public String getID() {
+        return this.getID();
+    }
 }

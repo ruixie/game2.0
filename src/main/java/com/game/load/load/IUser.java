@@ -1,4 +1,4 @@
-package com.game.load;
+package com.game.load.load;
 
 /**
  * Created with IntelliJ IDEA.
@@ -8,7 +8,5 @@ package com.game.load;
  * To change this template use File | Settings | File Templates.
  */
 public interface IUser {
-	
-	String getUserName();
-
+       String getName();
 }

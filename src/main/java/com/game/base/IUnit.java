@@ -10,4 +10,5 @@ package com.game.base;
 public interface IUnit {
     void load();
     void draw();
+    String getID();
 }
